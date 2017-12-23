@@ -1,0 +1,5 @@
+{
+    "require": {
+        "krowinski/php-mysql-replication": "^3.0"
+    }
+}
