@@ -1,5 +1,16 @@
 {
-    "require": {
-        "krowinski/php-mysql-replication": "^3.0"
-    }
+  "require": {
+    "krowinski/php-mysql-replication": "^3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Binlog2Sql\\": "src/"
+    },
+    "files": [
+      "src/Utils.php"
+    ]
+  }
 }
